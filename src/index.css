@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #fff;
+
+  opacity: 1;
+}
+
+.component-app {
+  width: 320px;
+  margin-left: 50px;
+  border: 3px solid #000;
+  padding-top: 10px;
+  border-radius: 10px;
+}
+
+.button-panel {
+  width: 350px;
+  display: inline-block;
+}
+
+button {
+  width: 70px;
+  height: 70px;
+  background-color: transparent;
+  margin: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+  border-radius: 10px;
+  border-color: #000;
+}
+
+.component-button button:hover {
+  border-color: violet;
+  background-color: darkviolet;
+  transition: all 0.5s;
+}
+
+.component-display {
+  background-color: transparent;
+  color: #000;
+  text-align: right;
+  font-weight: 200;
+  flex: 0 0 auto;
+  width: 305px;
+  border: 3px solid #000;
+  margin-left: 5px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.component-display>div {
+  font-size: 30px;
+  padding-right: 10px;
+  padding-top: 40px;
+}
